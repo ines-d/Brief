@@ -68,7 +68,7 @@ SELECT title from netflix_title where show_id <  80000000;
 SELECT netflix_title.title from netflix_title
 INNER JOIN netflix_shows ON netflix_title.title = netflix_shows.title;
 
-# 10.Calculer la durée totale de tous les TV Show de votre table netflix_titles
+# 10.Calculer la durée totale de tous les Movie de votre table netflix_titles
 SELECT type,sum(duration) from netflix_title WHERE type = "Movie";
 
 # 11. Compter le nombre de TV Shows de votre table ‘netflix_shows’ dont le ‘ratingLevel’ est renseigné.
