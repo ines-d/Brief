@@ -1,11 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
-#from app import app
-#from app.models import *
 from flask import Flask, request, jsonify, render_template
 from flask import jsonify
 from flask import request
-#from flask_pymongo import PyMongo
 import json
 from pymongo import MongoClient
 from flask_pymongo import PyMongo
